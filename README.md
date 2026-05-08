@@ -48,18 +48,7 @@ In the current version of the model, `Credit Type` shows a dominant feature impo
 
 To ensure the model isn't "cheating" by over-relying on this one feature, future updates will include:
 * Permutation Importance Testing: To see how much accuracy actually drops when `Credit Type` is shuffled.
-
-##  Critical Analysis: Feature Importance
-In the current version of the model, `Credit Type` shows a dominant feature importance score of **0.77**. 
-
-### Why is this so high?
-* Real-World Logic: In credit risk, whether a loan is "Equity-backed" versus "Unsecured" is often the single most significant predictor of default. The model is correctly identifying this high-level risk divider.
-* Potential Data Leakage: There is a possibility that `Credit Type` is a "proxy" variable, meaning it contains information that is only decided 'after' the bank already determines a borrower's risk level.
-
-### Planned Investigation
-To ensure the model isn't "cheating" by over-relying on this one feature, future updates will include:
-*   Permutation Importance Testing: To see how much accuracy actually drops when `Credit Type` is shuffled.
-*   Training a version of the model without this feature to see how the model performs
+* Training a version of the model without this feature to see how the model performs
 
 ## Conclusion
 
