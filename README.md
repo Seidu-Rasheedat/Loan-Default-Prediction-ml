@@ -32,7 +32,7 @@ XGBoost achieved the best performance and was selected as the final model.
 ## Key Insights
 
 * Loan and borrower characteristics significantly influence default risk
-* Feature importance highlights key drivers such as credit type and debt-to-income ratio
+* Feature importance highlights key drivers such as credit type
 
 ## Known Issues
 
