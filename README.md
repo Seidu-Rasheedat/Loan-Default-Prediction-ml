@@ -63,5 +63,5 @@ To ensure the model isn't "cheating" by over-relying on this one feature, future
 
 ## Conclusion
 
-The final model demonstrates strong performance in identifying high-risk borrowers and can support better credit risk decision-making.
+This model provides a meaningful analysis of borrower risk and demonstrates strong predictive potential. While the current findings are encouraging, the project remains an iterative work in progress. Future updates will focus on refining feature importance and validating the model against broader datasets to enhance its robustness.
 
