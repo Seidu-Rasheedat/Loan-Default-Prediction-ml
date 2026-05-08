@@ -37,7 +37,7 @@ XGBoost achieved the best performance and was selected as the final model.
 ## Known Issues
 
 ### Critical Analysis: Feature Importance
-In the current version of the model, `Credit Type` shows a dominant feature importance score of **0.77**. 
+In the current version of the model, `Credit Type` shows a dominant feature importance score of **0.79**. 
 
 ### Why is this so high?
 
@@ -54,7 +54,7 @@ In the current version of the model, `Credit Type` shows a dominant feature impo
 
 ### Why is this so high?
 * Real-World Logic: In credit risk, whether a loan is "Equity-backed" versus "Unsecured" is often the single most significant predictor of default. The model is correctly identifying this high-level risk divider.
-* Potential Data Leakage: There is a possibility that `Credit Type` is a "proxy" variable, meaning it contains information that is only decided 'after' a borrower's risk level is already determined by the bank.
+* Potential Data Leakage: There is a possibility that `Credit Type` is a "proxy" variable, meaning it contains information that is only decided 'after' the bank already determines a borrower's risk level.
 
 ### Planned Investigation
 To ensure the model isn't "cheating" by over-relying on this one feature, future updates will include:
