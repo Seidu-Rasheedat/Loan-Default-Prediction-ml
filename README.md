@@ -34,7 +34,7 @@ XGBoost achieved the best performance and was selected as the final model.
 * Loan and borrower characteristics significantly influence default risk
 * Feature importance highlights key drivers such as credit type
 
-## Known Issues
+## Initial concerns
 
 ### Critical Analysis: Feature Importance
 In the current version of the model, `Credit Type` shows a dominant feature importance score of **0.79**. 
@@ -49,7 +49,7 @@ In the current version of the model, `Credit Type` shows a dominant feature impo
 To ensure the model isn't "cheating" by over-relying on this one feature, future updates will include:
 * Training a version of the model without this feature to see how the model performs
 
-## Conclusion
+### Conclusion
 
 This model provides a meaningful analysis of borrower risk and demonstrates strong predictive potential. While the current findings are encouraging, the project remains an iterative work in progress. Future updates will focus on refining feature importance and validating the model against broader datasets to enhance its robustness.
 
@@ -74,4 +74,7 @@ The refined XGBoost model achieved approximately 90% accuracy, alongside strong 
 Following refinement, important predictors became more evenly distributed across variables such as lump_sum_payment, loan-to-value ratio, credit worthiness, and negative amortization indicators. This improved confidence that the model was learning broader borrower and loan-risk patterns rather than relying excessively on one dominant predictor.
 
 Overall, the refinement process improved model interpretability, robustness, and confidence in the model’s generalization ability while maintaining strong predictive performance.
+
+## Disclaimer
+This project is intended for educational and research purposes only. While the model demonstrates strong predictive performance, additional validation, domain-specific analysis, and out-of-time testing would be required before deployment in a real-world lending environment.
 
