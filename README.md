@@ -63,11 +63,11 @@ To investigate this further, the model was retrained after removing the `credit_
 
 ## Final Refined Model Results: XGBoost
 
- Accuracy: 0.90
- Precision: 0.92
- Recall: 0.65
- F1 Score: 0.76
- ROC-AUC: 0.891
+ • Accuracy: 0.90
+ • Precision: 0.92
+ • Recall: 0.65
+ • F1 Score: 0.76
+ • ROC-AUC: 0.891
 
 The refined XGBoost model achieved approximately 90% accuracy, alongside strong precision and a solid F1 score. The model also maintained a stable ROC-AUC score of approximately 0.891, indicating a strong ability to distinguish between default and non-default cases even after the removal of the highly influential `credit_type` feature.
 
