@@ -47,7 +47,6 @@ In the current version of the model, `Credit Type` shows a dominant feature impo
 ### Planned Investigation
 
 To ensure the model isn't "cheating" by over-relying on this one feature, future updates will include:
-* Permutation Importance Testing: To see how much accuracy actually drops when `Credit Type` is shuffled.
 * Training a version of the model without this feature to see how the model performs
 
 ## Conclusion
